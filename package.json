@@ -1,0 +1,20 @@
+{
+  "name": "hyper-base",
+  "author": "AsyncRaptor",
+  "version": "1.0.0",
+  "description": "Base template for node.js with HyperExpress",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "hyper-express": "^6.14.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
