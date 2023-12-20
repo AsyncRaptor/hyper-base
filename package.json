@@ -3,7 +3,7 @@
   "author": "AsyncRaptor",
   "version": "1.0.0",
   "description": "Base template for node.js with HyperExpress",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "nodemon ./app.js",
